@@ -7,7 +7,7 @@
     --fs-3xl: 28px;
     --fs-4xl: 38px;
     --fs-5xl: 80px;
-    
+    /* 21 */
 
     --lh-17: 17px;
     --lh-21: 21px;
@@ -17,11 +17,26 @@
     --lh-35: 35px;
     --lh-48: 48px;
     --lh-84: 84px;
+
+
+    --white: #FFF;
+    --black: #000000;
+    --green-100: #133E18;
+    --green-200:#0F2912;
     
 
     
 
     
+}
+.bg-color{    
+    background: linear-gradient(90deg, var(--green-100) 0%, var(--green-200) 100%);    
+}
+.color-black{
+    color: var(--black);
+}
+.color-white{
+    color: var(--white);
 }
 .lh-17{
     line-height: var(--lh-17);
