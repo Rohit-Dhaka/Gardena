@@ -191,7 +191,7 @@
     height: 412px;
     border-radius: 40px;
     /* max-width: 392px; */
-    border: 1px solid var(--white);
+    /* border: 1px solid var(--white); */
 }
 
 .cardimg {
@@ -211,7 +211,7 @@
     transform: translateX(9px);
 }
 
-input {
+input{
     color: var(--white) !important;
     opacity: 100% !important;
 }
@@ -236,14 +236,14 @@ input {
     mask-composite: exclude;
 }
 
-.box-shadow {
-    box-shadow: 0px 2.32px 1.85px 0px var(--black-1);
-    box-shadow: 0px 5.39px 4.31px 0px var(--black-2);
-    box-shadow: 0px 9.68px 7.74px 0px var(--black-3);
-    box-shadow: 0px 16.06px 12.85px 0px var(--black-4);
-    box-shadow: 0px 26.45px 21.16px 0px var(--black-5);
-    box-shadow: 0px 46.23px 36.99px 0px var(--black-7);
-    box-shadow: 0px 100px 80px 0px var(--black-7);
+.img-shadow {
+    box-shadow: 0px 2px 1px 0px var(--black-1) !important;
+    box-shadow: 0px 5px 4px 0px var(--black-2) !important;
+    box-shadow: 0px 9px 7px 0px var(--black-3) !important;
+    box-shadow: 0px 16px 12px 0px var(--black-4) !important;
+    box-shadow: 0px 26px 21px 0px var(--black-5) !important;
+    box-shadow: 0px 46px 36px 0px var(--black-7) !important;
+    box-shadow: 0px 100px 80px 0px var(--black-7) !important;
 }
 
 .text-underline {
@@ -282,8 +282,7 @@ input {
 
 .firstcard {
     height: 112px;
-    border-radius: 20px;
-    border: 1px solid var(--white);
+    border-radius: 20px;    
     background-color: var(--green-400);
     max-width: 369px;
     max-width: 330px !important;
@@ -425,10 +424,19 @@ input {
 
 .layer {
     width: 100%;
-    top: 0;
+    top: 0;    
     left: 0;
     height: 100%;
     background-color: var(--black-50) !important;
+}
+.mycard-layer{
+    width: 100%;
+    top: 0;    
+    left: 0;
+    height: 100%;
+    background-color: var(--black-50) !important;
+    border-radius: 40px;
+
 }
 
 .pre-btn {
@@ -445,10 +453,18 @@ input {
     padding: 20px 20px 60px !important;
     border-radius: 40px;
 }
+.gradient-border-2::before {
+    border-radius: 20px;
+}
 
 .gradient-border-1::before {
     border-radius: 40px;
 }
+.gradient-border-3::before {
+    border-radius: 40px;
+    background: linear-gradient(120deg, var(--white), transparent, var(--white));
+}
+
 
 .social-icon:hover {
     transform: translateY(-7px);
@@ -659,7 +675,7 @@ input {
 }
 
 .Ellipse17 {
-    bottom: -20%;
+    bottom: -30%;    
     left: 0;
 }
 
