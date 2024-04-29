@@ -33,7 +33,7 @@ $('.third-slider').slick({
   arrows:false,
   slidesToShow: 1,
   fade:true,
-  autoplay:true,
+  // autoplay:true,
   slidesToScroll: 1,
 });
 
