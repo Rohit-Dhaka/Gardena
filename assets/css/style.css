@@ -113,9 +113,11 @@
 .pt-199 {
     padding-top: 199px !important;
 }
-.pt-60{
+
+.pt-60 {
     padding-top: 60px;
 }
+
 .pt-70 {
     padding-top: 70px;
 }
@@ -124,6 +126,9 @@
     padding-top: 100px;
 }
 
+.pb-13{
+    padding-bottom: 13px;
+}
 .pb-18 {
     padding-bottom: 18px;
 }
@@ -192,8 +197,6 @@
     padding: 20px 45px 44px 46px;
     height: 412px;
     border-radius: 40px;
-    /* max-width: 392px; */
-    /* border: 1px solid var(--white); */
 }
 
 .cardimg {
@@ -208,11 +211,12 @@
     background-color: var(--black-10);
     border-radius: 11px;
 }
-.input-box input{
+
+.input-box input {
     padding: 22px 30px 21px 36px;
 }
 
-.arrow-img{
+.arrow-img {
     padding: 28px 42px 27px 43px;
 
 }
@@ -221,7 +225,7 @@
     transform: translateX(9px);
 }
 
-input{
+input {
     color: var(--white) !important;
     opacity: 100% !important;
 }
@@ -238,7 +242,7 @@ input{
     inset: 0;
     border-radius: 11px;
     /* z-index: 1 !important; */
-    padding: 1px;    
+    padding: 1px;
     background: linear-gradient(45deg, var(--white), transparent, var(--white));
     -webkit-mask:
         linear-gradient(var(--white) 0 0) content-box,
@@ -246,7 +250,8 @@ input{
     -webkit-mask-composite: xor;
     mask-composite: exclude;
 }
-.gradient-border-4::before{
+
+.gradient-border-4::before {
     z-index: -1;
 
 }
@@ -302,7 +307,7 @@ input{
 .search-box {
     max-width: 147px;
     border-radius: 34px;
-    
+
     background-color: var(--green-500);
     padding: 15px 19px;
 }
@@ -310,7 +315,7 @@ input{
 
 .firstcard {
     height: 112px;
-    border-radius: 20px;    
+    border-radius: 20px;
     background-color: var(--green-400);
     max-width: 369px;
     max-width: 330px !important;
@@ -453,14 +458,15 @@ input{
 
 .layer {
     width: 100%;
-    top: 0;    
+    top: 0;
     left: 0;
-    height: 100%;    
+    height: 100%;
     background-color: var(--black-50) !important;
 }
-.mycard-layer{
+
+.mycard-layer {
     width: 100%;
-    top: 0;    
+    top: 0;
     left: 0;
     height: 100%;
     background-color: var(--black-50) !important;
@@ -470,18 +476,19 @@ input{
 
 .pre-btn {
     left: 0%;
-    bottom: 35%;
+    bottom: 30%;
 }
 
 .next-btn {
     right: 0% !important;
-    bottom: 35%;
+    bottom: 30%;
 }
 
 .box {
     padding: 20px 20px 60px !important;
     border-radius: 40px;
 }
+
 .gradient-border-2::before {
     border-radius: 20px;
 }
@@ -490,6 +497,7 @@ input{
     border-radius: 40px;
     z-index: -1 !important;
 }
+
 .gradient-border-3::before {
     border-radius: 40px;
     z-index: -1 !important;
@@ -506,23 +514,24 @@ input{
 }
 
 
-.border-right::after {    
+.border-right::after {
     position: absolute;
     content: '';
     height: 27px;
     width: 1px;
     display: inline-block;
     right: 0;
-    top: 23px;                
+    top: 23px;
     background-color: var(--white);
 }
 
 .duration-300 {
     transition: all 300ms linear;
 }
-.card-img img{
-    width: 100%;    
-    border-radius: 20px ;
+
+.card-img img {
+    width: 100%;
+    border-radius: 20px;
     height: 470px;
 }
 
@@ -551,7 +560,8 @@ input{
 .cursor-pointer {
     cursor: pointer !important;
 }
-.girl-img{
+
+.girl-img {
     max-width: 500px;
 }
 
@@ -619,6 +629,7 @@ input{
 .third-slider .slick-dots {
     z-index: 1 !important;
 }
+
 @keyframes animation {
 
     0%,
@@ -697,10 +708,11 @@ input{
 
 /* -------------------------------------------back-to-top */
 /* ----------------------------------------Ellipse */
-.Ellipse11{
+.Ellipse11 {
     right: 0;
-    bottom: -30%;    
+    bottom: -30%;
 }
+
 .Ellipse18 {
     right: 0;
 }
@@ -730,7 +742,7 @@ input{
 }
 
 .Ellipse17 {
-    bottom: -30%;    
+    bottom: -30%;
     left: 0;
 }
 
@@ -759,71 +771,42 @@ input{
 }
 
 /* ----------------------------------------underline */
-/* ----------------------------------------navbar */
-/* .hamburger {
-    display: none;
-}
-
-@media(max-width: 992px) {
-    .menulist {
-        position: fixed;
-        right: -100%;
-        top: 0;
-        flex-direction: column;
-        padding-top: 100px;
-        background: linear-gradient(90deg, var(--green-100) 0%, var(--green-200) 100%);
-        width: 100%;
-        min-height: 100vh;
-        gap: 32px;
-        z-index: 3 !important;
-        transition: all 300ms ease-in-out;
-    }
-
-    .menulist.nav-active {
-        right: 0;
-    }
-
-    .hamburger {
-        display: block;
-        z-index: 5 !important;
-    }
-
-    .search-box {
-        max-width: 500px;
-    }
-} */
-
-/* ----------------------------------------navbar */
 @media (max-width: 575px) {
     .farmer-img {
         bottom: 0;
         right: -7% !important;
     }
-    .mybtn{
+
+    .mybtn {
         padding: 4px 12px !important;
     }
-    .star1{
+
+    .star1 {
         width: 30px !important;
-        /* background: red !important; */
     }
-    .logo{
+
+    .logo {
         width: 40px !important;
     }
-    .menuicon{
+
+    .menuicon {
         width: 30px !important;
     }
+
     .search-box {
-        padding: 8px 11px;        
+        padding: 8px 11px;
         width: 100px;
     }
-    .search-icon{
+
+    .search-icon {
         width: 18px;
-        
+
     }
-    .text-underline::after{
+
+    .text-underline::after {
         bottom: 8px !important;
     }
-   
+
 }
 
 @media (min-width: 575px) {
@@ -897,15 +880,17 @@ input{
     .pt-sm-65 {
         padding-top: 65px !important;
     }
-    .gap-sm-22{
+
+    .gap-sm-22 {
         gap: 22px;
     }
-    .card-img img{
+
+    .card-img img {
         max-width: 500px !important;
-        height: 630px ;
+        height: 630px;
         margin: 0 auto;
     }
-   
+
 }
 
 @media (min-width: 768px) {
@@ -982,8 +967,9 @@ input{
     .search-box {
         max-width: 147px;
     }
-    .card-img  img{        
-        height: 464px;        
+
+    .card-img img {
+        height: 464px;
     }
 }
 
