@@ -66,9 +66,7 @@
     padding-left: 17px;
 }
 
-.pl-30 {
-    padding-left: 30px;
-}
+
 
 .pl-44 {
     padding-left: 44px;
@@ -471,6 +469,7 @@ input {
     height: 100%;
     background-color: var(--black-50) !important;
     border-radius: 40px;
+    
 
 }
 
@@ -534,6 +533,7 @@ input {
     border-radius: 20px;
     height: 470px;
 }
+
 
 .top-border::after {
     content: '';
@@ -890,6 +890,9 @@ input {
         height: 630px;
         margin: 0 auto;
     }
+    .pl-sm-30 {
+        padding-left: 30px !important;
+    }
 
 }
 
@@ -939,10 +942,12 @@ input {
     .pb-lg-99 {
         padding-bottom: 99px !important;
     }
-
+    .Component-img{
+        height: 718px !important;
+    }
     .Component {
         top: -1%;
-        bottom: 0 !important;
+        
         left: 28%;
         right: 30%;
     }

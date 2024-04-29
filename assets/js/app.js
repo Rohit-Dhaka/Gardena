@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
       let loadingOverlay = document.getElementById("loadingOverlay");
       loadingOverlay.style.display = "none";
-      document.querySelector("body").classList.remove("overflow_hidden");
+      document.querySelector("body").classList.remove("overflow-hidden");
     },1000);
   });
 });
